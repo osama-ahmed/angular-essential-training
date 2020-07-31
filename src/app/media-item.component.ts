@@ -10,6 +10,7 @@ export class MediaItemComponent {
   @Output() delete = new EventEmitter();
 
   onDelete() {
+    console.log(this.mediaItem.name + " deleted");
     this.delete.emit(this.mediaItem);
   }
 }

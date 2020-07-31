@@ -18,6 +18,9 @@
       <div *ngIf="form.get('name').hasError('pattern')" class="error">
         Name has invalid characters
       </div>
+      <div *ngIf="form.get('name').hasError('required')" class="error">
+        Name is required
+      </div>
     </li>
     <li>
       <label for="category">Category</label>
