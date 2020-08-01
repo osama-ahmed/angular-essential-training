@@ -44,7 +44,7 @@ h2 {
   cursor: pointer;
 }
 .favorite.is-favorite {
-    fill: #37ad79;
+    fill: #00ff8f;
 }
 .favorite.is-favorite-hovering {
     fill: #45bf94;
